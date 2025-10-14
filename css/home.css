@@ -152,7 +152,10 @@
   height: 235px;
 }
 
-.continue-watching-section h5 {
+.continue-watching-section h5,
+.top-today h5,
+.film-trending h5,
+.new-release h5 {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -214,4 +217,37 @@
   align-items: center;
   gap: 4px;
   padding-right: 16px;
+}
+
+.footer {
+  background-color: #151515;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.chill-logo-footer {
+  display: flex;
+  gap: 3px;
+  padding: 8px 0;
+}
+
+.chill-logo-footer p {
+  font-family: "Londrina Solid", sans-serif;
+}
+.footer-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
 }
