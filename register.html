@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Chill</title>
+    <link rel="stylesheet" href="./css/login-register.css" />
+  </head>
+  <body class="register">
+    <div class="register-container">
+      <div class="logo-register">
+        <img src="./images/logo.png" alt="logo" />
+        <p>CHILL</p>
+      </div>
+      <div class="register-header">
+        <h3>Daftar</h3>
+        <p>Selamat datang!</p>
+      </div>
+      <form action="login.html" method="post" class="register-form">
+        <label for="name">Username</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Masukkan username"
+          required
+        />
+        <label for="pass">Kata Sandi</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Masukkan kata sandi"
+          required
+        />
+        <label for="pass">Konfirmasi Kata Sandi</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Masukkan kata sandi"
+          required
+        />
+        <div class="form-links">
+          <span>Sudah punya akun? <a href="login.html">Masuk</a></span>
+        </div>
+        <button type="submit" class="btn-primary">Daftar</button>
+        <div class="divider">
+          <span>Atau</span>
+        </div>
+        <button
+          type="button"
+          class="btn-google"
+          onclick="window.location.href='index.html'"
+        >
+          <img src="./images/logo-google.png" alt="logo-google" />
+          Daftar dengan Google
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

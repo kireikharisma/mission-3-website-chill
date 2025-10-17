@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Chill</title>
+    <link rel="stylesheet" href="./css/login-register.css" />
+  </head>
+  <body class="login">
+    <div class="login-container">
+      <div class="logo-login">
+        <img src="./images/logo.png" alt="logo" />
+        <p>CHILL</p>
+      </div>
+      <div class="login-header">
+        <h3>Masuk</h3>
+        <p>Selamat datang kembali!</p>
+      </div>
+      <form action="index.html" method="post" class="login-form">
+        <label for="name">Username</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Masukkan username"
+          required
+        />
+        <label for="pass">Kata Sandi</label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Masukkan kata sandi"
+          required
+        />
+        <div class="form-links">
+          <span>Belum punya akun? <a href="register.html">Daftar</a></span>
+          <a href="#">Lupa kata sandi?</a>
+        </div>
+        <button type="submit" class="btn-primary">Masuk</button>
+        <div class="divider">
+          <span>Atau</span>
+        </div>
+        <button
+          type="button"
+          class="btn-google"
+          onclick="window.location.href='index.html'"
+        >
+          <img src="./images/logo-google.png" alt="logo-google" />
+          Masuk dengan Google
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

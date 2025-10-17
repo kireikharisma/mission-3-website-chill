@@ -251,3 +251,51 @@
   text-decoration: none;
   font-size: 16px;
 }
+
+/* 🖥️ Desktop Layout */
+@media (min-width: 768px) {
+  /* Hero section dibikin lebih tinggi */
+
+  .headline-content {
+    width: 600px;
+    gap: 16px;
+  }
+
+  .headline-content h4 {
+    font-size: 36px;
+  }
+
+  .headline-content p {
+    font-size: 16px;
+    max-width: 600px;
+    max-height: 75px;
+    -webkit-line-clamp: 3;
+  }
+
+  /* Container film sections */
+  .continue-watching-section,
+  .top-today,
+  .film-trending,
+  .new-release {
+    padding: 0 40px;
+    margin: 40px auto;
+  }
+
+  /* Card ukuran lebih besar */
+  .landscape-card {
+    width: 260px;
+    height: 140px;
+  }
+
+  .card-description {
+    font-size: 14px;
+  }
+
+  .continue-watching-section h5,
+  .top-today h5,
+  .film-trending h5,
+  .new-release h5 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
