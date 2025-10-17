@@ -254,8 +254,6 @@
 
 /* 🖥️ Desktop Layout */
 @media (min-width: 768px) {
-  /* Hero section dibikin lebih tinggi */
-
   .headline-content {
     width: 600px;
     gap: 16px;
